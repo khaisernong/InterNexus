@@ -6,7 +6,7 @@ import { SearchOutlined, GlobalOutlined, TeamOutlined } from '@ant-design/icons'
 /**
  * PartnerMap Component
  * 
- * Interactive world map showing global research partner institutions.
+ * Interactive world map showing national and international research partner institutions.
  * Features include:
  * - Zoomable/pannable map
  * - Clickable markers for partner details
@@ -49,19 +49,6 @@ const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 const SAMPLE_PARTNERS = [
   {
     id: 1,
-    name: "Taylor's University",
-    country: "Malaysia",
-    city: "Subang Jaya",
-    coordinates: [101.6185, 3.0654],
-    type: "University",
-    collaboration: "Innovation & Entrepreneurship",
-    established: "2025",
-    projects: 13,
-    researchers: 46,
-    website: "https://university.taylors.edu.my"
-  },
-  {
-    id: 2,
     name: "University of Malaya",
     country: "Malaysia",
     city: "Kuala Lumpur",
@@ -74,7 +61,7 @@ const SAMPLE_PARTNERS = [
     website: "https://www.um.edu.my"
   },
   {
-    id: 3,
+    id: 2,
     name: "University of Tsukuba Malaysia",
     country: "Malaysia",
     city: "Kuala Lumpur",
@@ -85,6 +72,19 @@ const SAMPLE_PARTNERS = [
     projects: 18,
     researchers: 62,
     website: "https://www.ututm.edu.my"
+  },
+  {
+    id: 3,
+    name: "Taylor's University",
+    country: "Malaysia",
+    city: "Subang Jaya",
+    coordinates: [101.6185, 3.0654],
+    type: "University",
+    collaboration: "Innovation & Entrepreneurship",
+    established: "2025",
+    projects: 13,
+    researchers: 46,
+    website: "https://university.taylors.edu.my"
   },
   {
     id: 3,
@@ -158,7 +158,7 @@ const SAMPLE_PARTNERS = [
     city: "Semenyih",
     coordinates: [101.8728, 2.9387],
     type: "University",
-    collaboration: "Global Research Partnerships",
+    collaboration: "International Research Partnerships",
     established: "2025",
     projects: 15,
     researchers: 52,

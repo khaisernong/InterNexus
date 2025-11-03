@@ -46,7 +46,7 @@ const LoginPage = () => {
             InterNexus
           </h2>
           <p style={{ margin: '8px 0 0 0', color: '#8c8c8c', fontSize: '14px' }}>
-            Global Research Collaboration Platform
+            National Interdisciplinary Research Collaboration Platform
           </p>
         </div>
 

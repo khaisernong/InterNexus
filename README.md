@@ -1,7 +1,7 @@
 # InterNexus - Virtual Research Collaboration Platform
 
 > **TechTrove 2.0 Hackathon Project**  
-> A cutting-edge virtual headquarters platform for global research collaboration, featuring 3D office tours, real-time collaboration tools, and AI-powered insights.
+> A cutting-edge virtual headquarters platform for national interdisciplinary research collaboration, featuring 3D office tours, real-time collaboration tools, and AI-powered insights.
 
 ---
 
@@ -299,4 +299,4 @@ MIT License - see LICENSE file for details
 
 ---
 
-**Built with ❤️ for global research collaboration**
+**Built with ❤️ for national interdisciplinary research collaboration**

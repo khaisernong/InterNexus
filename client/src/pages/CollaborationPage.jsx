@@ -14,12 +14,6 @@ import { TeamOutlined, SendOutlined, UserOutlined, MessageOutlined, ExperimentOu
 // Mutual authors data from all partner universities
 // Updated to match the latest data from Partners page
 const MUTUAL_AUTHORS = [
-  // Taylor's University
-  { university: "Taylor's University", name: "Prof. Dr. Neethiahnanthan Ari Ragavan", field: "Social Sciences & Management", papers: 145, status: 'active' },
-  { university: "Taylor's University", name: "Prof. Dr. Anindita Dasgupta", field: "Liberal Arts & International Relations", papers: 128, status: 'active' },
-  { university: "Taylor's University", name: "Prof. Dr. Rozainee Khairudin", field: "Psychology & Counselling", papers: 134, status: 'active' },
-  { university: "Taylor's University", name: "Prof. Dr. Jatswan Singh", field: "Performing Arts & Cultural Studies", papers: 98, status: 'active' },
-  
   // University of Malaya
   { university: "University of Malaya", name: "Prof. Dato' Dr. Adeeba Kamarulzaman", field: "Infectious Diseases & HIV Research", papers: 256, status: 'active' },
   { university: "University of Malaya", name: "Prof. Dr. Julia Patrick Engkasan", field: "Rehabilitation Medicine & Medical Ethics", papers: 178, status: 'active' },
@@ -31,6 +25,12 @@ const MUTUAL_AUTHORS = [
   { university: "University of Tsukuba Malaysia", name: "Prof. Suzuki Iwane", field: "Plant Molecular Biology & Synthetic Biology", papers: 124, status: 'active' },
   { university: "University of Tsukuba Malaysia", name: "Prof. Tezuka Taro", field: "Machine Learning & Computational Neuroscience", papers: 78, status: 'active' },
   { university: "University of Tsukuba Malaysia", name: "Prof. Mochiyama Hiromi", field: "Robotics & Haptics Engineering", papers: 95, status: 'active' },
+  
+  // Taylor's University
+  { university: "Taylor's University", name: "Prof. Dr. Neethiahnanthan Ari Ragavan", field: "Social Sciences & Management", papers: 145, status: 'active' },
+  { university: "Taylor's University", name: "Prof. Dr. Anindita Dasgupta", field: "Liberal Arts & International Relations", papers: 128, status: 'active' },
+  { university: "Taylor's University", name: "Prof. Dr. Rozainee Khairudin", field: "Psychology & Counselling", papers: 134, status: 'active' },
+  { university: "Taylor's University", name: "Prof. Dr. Jatswan Singh", field: "Performing Arts & Cultural Studies", papers: 98, status: 'active' },
   
   // Universiti Sains Malaysia
   { university: "Universiti Sains Malaysia", name: "Prof. Dr. Ramona Ramli", field: "Computer Science & Software Engineering", papers: 145, status: 'active' },

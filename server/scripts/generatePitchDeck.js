@@ -96,7 +96,7 @@ async function main() {
   pptx.title = 'InterNexus – Virtual Research HQ';
 
   // 1. Title
-  titleSlide(pptx, 'InterNexus', 'The virtual HQ for global research collaboration');
+  titleSlide(pptx, 'InterNexus', 'The virtual HQ for national interdisciplinary research collaboration');
 
   // 2. Opening (tone: calm, balanced, clear)
   bulletsSlide(pptx, 'Context & Opportunity', [
