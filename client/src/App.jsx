@@ -11,6 +11,7 @@ const CollaborationPage = lazy(() => import('./pages/CollaborationPage'));
 const PartnersPage = lazy(() => import('./pages/PartnersPage'));
 const AnalyticsPage = lazy(() => import('./pages/AnalyticsPage'));
 const ProfilePage = lazy(() => import('./pages/ProfilePage'));
+const NewsFeedPage = lazy(() => import('./pages/NewsFeedPage'));
 const LoginPage = lazy(() => import('./pages/LoginPage'));
 
 // Common components
@@ -92,6 +93,7 @@ function App() {
               <Route path="/collaborate" element={<CollaborationPage />} />
               <Route path="/partners" element={<PartnersPage />} />
               <Route path="/analytics" element={<AnalyticsPage />} />
+              <Route path="/news-feed" element={<NewsFeedPage />} />
               <Route path="/profile" element={<ProfilePage />} />
 
               {/* Catch-all redirect */}

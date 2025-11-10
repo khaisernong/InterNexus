@@ -8,6 +8,7 @@ import {
   GlobalOutlined,
   BarChartOutlined,
   CommentOutlined,
+  ReadOutlined,
 } from '@ant-design/icons';
 
 const { Sider } = Layout;
@@ -41,6 +42,11 @@ const AppSidebar = ({ collapsed }) => {
       key: '/partners',
       icon: <GlobalOutlined />,
       label: 'Partners',
+    },
+    {
+      key: '/news-feed',
+      icon: <ReadOutlined />,
+      label: 'Research Feed',
     },
     {
       key: '/analytics',
